@@ -29,6 +29,7 @@ header {
 
 }
 
+
 .main-nav li {
 	display: inline-block;
 	margin: 0px 30px;
@@ -42,14 +43,48 @@ header {
 	padding-bottom: 5px;
 	border: 1px solid #FFF;
 	padding: 5px 15px;
-	transition: border-bottom 0.2s, color 0.2s;
+	transition: border 0.2s, color 0.2s;
 }
 
 .nav-btn:hover,
 .nav-btn:active {
-    color: #D95945;
-    border: 1px solid #D95945; 
+    color: #E2EB98;
+    border: 1px solid #E2EB98; 
 }
+
+.buy-paper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+
+}
+
+
+.buy-paper li {
+	display: inline-block;
+	margin: 0px 30px;
+	text-decoration: none;
+}
+
+.paper-btn:link,
+.paper-btn:visited {
+	text-decoration: none;
+	color: #FFF;
+	padding-bottom: 5px;
+	border: 1px solid #FFF;
+	padding: 5px 15px;
+	transition: border 0.2s, color 0.2s;
+}
+
+.paper-btn:hover,
+.paper-btn:active {
+    color: #E2EB98;
+    border: 1px solid #E2EB98; 
+}
+
+
+
 
 .flexbox {
 	display: flex:
@@ -59,6 +94,7 @@ header {
 .home {
 	height: 800px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(paper-home.jpg);
@@ -70,13 +106,13 @@ header {
 }
 
 h1 {
-	margin: 0;
 	color: #fff;
 }
 
+
 .shop {
 	background-color: blue;
-		height: 800px;
+	height: 800px;
 
 }
 
