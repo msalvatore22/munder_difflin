@@ -1,3 +1,5 @@
+/*---------------- Basic Setup ----------------*/
+
 html,
 body {
 	font-family: 'Poppins', sans-serif;
@@ -11,6 +13,8 @@ body {
 	
 }
 
+/*---------------- Header ----------------*/
+
 header {
 	position: absolute;
 	background-color: transparent;
@@ -20,6 +24,9 @@ header {
 	width: 100%;
 	overflow: hidden;
 }
+
+/*---------------- Main Nav ----------------*/
+
 
 .main-nav {
 	display: flex;
@@ -51,6 +58,8 @@ header {
     color: #E2EB98;
     border: 1px solid #E2EB98; 
 }
+
+/*---------------- Buy Paper Button ----------------*/
 
 .buy-paper {
 	display: flex;
@@ -84,12 +93,17 @@ header {
 }
 
 
+/*---------------- Parent Div/Flexbox ----------------*/
 
 
 .flexbox {
 	display: flex:
 	justify-content: column;
 }
+
+
+/*---------------- Home Page ----------------*/
+
 
 #home {
 	height: 800px;
@@ -109,6 +123,9 @@ h1 {
 	color: #fff;
 }
 
+/*---------------- About Section ----------------*/
+
+
 
 #about {
 	background-color: blue;
@@ -124,6 +141,8 @@ h1 {
 	word-spacing: 20px;
 }
 
+/*---------------- Shop Section ----------------*/
+
 
 #shop {
 	background-color: red;
@@ -131,14 +150,11 @@ h1 {
 
 }
 
-#locations {
-	background-color: green;	
-	height: 800px;
+/*---------------- Contact Section ----------------*/
 
-}
 
 #contact {
-	background-color: orange;
+	background-color: green;
 	height: 800px;
 
 }
