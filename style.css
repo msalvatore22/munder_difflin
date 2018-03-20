@@ -18,7 +18,7 @@ body {
 header {
 	position: absolute;
 	background-color: transparent;
-	margin-top: 0;
+	margin-top: 20px;
 	padding-top: 0;
 	height: 60px;
 	width: 100%;
@@ -161,6 +161,7 @@ header {
 
 .price-box {
 	margin: 50px 20px;
+	text-align: center;
 	background-color: green;
 
 }
@@ -176,11 +177,12 @@ header {
 	text-decoration: none;
 	display: inline-block;
 	color: #fff;
+	margin: 10px 0;
 }
 
 
 .buy-btn:link,
-.buy-btn:visted {
+.buy-btn:visited {
 	text-decoration: none;
 	color: #FFF;
 	border: 1px solid #FFF;
@@ -195,6 +197,12 @@ header {
     color: #fff;
 }
 
+
+.paper-img {
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+}
 
 
 /*---------------- Contact Section ----------------*/
