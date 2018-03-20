@@ -74,5 +74,22 @@ h1 {
 	color: #fff;
 }
 
+.shop {
+	background-color: blue;
+		height: 800px;
+
+}
+
+.locations {
+	background-color: green;	
+	height: 800px;
+
+}
+
+.contact {
+	background-color: orange;
+	height: 800px;
+
+}
 
 
