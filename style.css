@@ -1,11 +1,11 @@
 html,
 body {
 	font-family: 'Poppins', sans-serif;
-	color: #555;
+	color: #fff;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	margin: 0;
 	padding: 0;
 	
@@ -91,7 +91,7 @@ header {
 	justify-content: column;
 }
 
-.home {
+#home {
 	height: 800px;
 	display: flex;
 	flex-direction: column;
@@ -110,26 +110,34 @@ h1 {
 }
 
 
-.about {
+#about {
+	background-color: blue;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#about h3 {
+	word-spacing: 20px;
+}
+
+
+#shop {
 	background-color: red;
 	height: 800px;
 
 }
 
-
-.shop {
-	background-color: blue;
-	height: 800px;
-
-}
-
-.locations {
+#locations {
 	background-color: green;	
 	height: 800px;
 
 }
 
-.contact {
+#contact {
 	background-color: orange;
 	height: 800px;
 
