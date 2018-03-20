@@ -119,9 +119,7 @@ header {
 
 }
 
-h1 {
-	color: #fff;
-}
+
 
 /*---------------- About Section ----------------*/
 
@@ -147,8 +145,57 @@ h1 {
 #shop {
 	background-color: red;
 	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.products {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.price-box {
+	margin: 50px 20px;
+	background-color: green;
 
 }
+
+.price > h3,
+.price > p {
+	margin: 0;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+.buy-now a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+
+.buy-btn:link,
+.buy-btn:visted {
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding-bottom: 5px;
+	padding: 5px 15px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.buy-btn:hover,
+.buy-btn:active {
+    background-color: #E2EB98;
+    color: #fff;
+}
+
+
 
 /*---------------- Contact Section ----------------*/
 
