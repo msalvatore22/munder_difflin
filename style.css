@@ -51,4 +51,28 @@ header {
     border: 1px solid #D95945; 
 }
 
+.flexbox {
+	display: flex:
+	justify-content: column;
+}
+
+.home {
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(paper-home.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	background-position: top;
+
+}
+
+h1 {
+	margin: 0;
+	color: #fff;
+}
+
+
 
