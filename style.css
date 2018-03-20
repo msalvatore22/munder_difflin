@@ -35,5 +35,20 @@ header {
 	text-decoration: none;
 }
 
+.nav-btn:link,
+.nav-btn:visited {
+	text-decoration: none;
+	color: #FFF;
+	padding-bottom: 5px;
+	border: 1px solid #FFF;
+	padding: 5px 15px;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+    color: #D95945;
+    border: 1px solid #D95945; 
+}
 
 
