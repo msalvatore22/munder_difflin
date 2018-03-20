@@ -13,7 +13,7 @@ body {
 
 header {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	margin-top: 0;
 	padding-top: 0;
 	height: 60px;
@@ -107,6 +107,13 @@ header {
 
 h1 {
 	color: #fff;
+}
+
+
+.about {
+	background-color: red;
+	height: 800px;
+
 }
 
 
