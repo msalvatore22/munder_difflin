@@ -21,6 +21,19 @@ header {
 	overflow: hidden;
 }
 
+.main-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0px 30px;
+	text-decoration: none;
+}
 
 
 
