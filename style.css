@@ -48,15 +48,16 @@ header {
 	text-decoration: none;
 	color: #FFF;
 	padding-bottom: 5px;
-	border: 1px solid #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
 	padding: 5px 15px;
 	transition: border 0.2s, color 0.2s;
 }
 
 .nav-btn:hover,
 .nav-btn:active {
-    color: #77B6EA;
-    border: 1px solid #77B6EA; 
+    color: #9BD1F4;
+    border: 2px solid #9BD1F4; 
 }
 
 /*---------------- Buy Paper Button ----------------*/
@@ -81,15 +82,19 @@ header {
 	text-decoration: none;
 	color: #FFF;
 	padding-bottom: 5px;
-	border: 1px solid #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
 	padding: 5px 15px;
 	transition: border 0.2s, color 0.2s;
+	transition: background-color 0.2s;
 }
 
 .paper-btn:hover,
 .paper-btn:active {
-    color: #E2EB98;
-    border: 1px solid #E2EB98; 
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #8CD867;
+ 
 }
 
 
@@ -126,7 +131,7 @@ header {
 
 
 #about {
-	background-color: blue;
+	background-color: #9BD1F4;
 	height: 1000px;
 	display: flex;
 	flex-direction: column;
@@ -135,15 +140,20 @@ header {
 
 }
 
-#about h3 {
+#about h2 {
 	word-spacing: 20px;
+}
+
+
+#about h3 {
+	word-spacing: 30px;
 }
 
 /*---------------- Shop Section ----------------*/
 
 
 #shop {
-	background-color: red;
+	background-color: #DB2B39;
 	height: 1000px;
 	display: flex;
 	flex-direction: column;
@@ -160,9 +170,12 @@ header {
 
 
 .price-box {
-	margin: 50px 20px;
+	margin: 50px 50px;
 	text-align: center;
-	background-color: green;
+	background-color: transparent;
+	border: solid 2px #9BD1F4;
+	border-radius: 5px;
+
 
 }
 
@@ -177,7 +190,7 @@ header {
 	text-decoration: none;
 	display: inline-block;
 	color: #fff;
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 
@@ -185,7 +198,8 @@ header {
 .buy-btn:visited {
 	text-decoration: none;
 	color: #FFF;
-	border: 1px solid #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
 	padding-bottom: 5px;
 	padding: 5px 15px;
 	transition: background-color 0.2s, color 0.2s;
@@ -193,7 +207,7 @@ header {
 
 .buy-btn:hover,
 .buy-btn:active {
-    background-color: #E2EB98;
+    background-color: #8CD867;
     color: #fff;
 }
 
@@ -209,7 +223,7 @@ header {
 
 
 #contact {
-	background-color: green;
+	background-color: #F87930;
 	height: 1000px;
 	display: flex;
 	flex-direction: column;
@@ -218,10 +232,17 @@ header {
 
 }
 
+
+#contact > div {
+	margin: 20px 0;
+}
+
+
 .contact-form {
-    width: 70%;
+    width: 400px;
     margin: 0 auto;
 }
+
 
 
 input[type=text],
@@ -234,6 +255,50 @@ textarea {
     border: 1px solid #ccc;
 }
 
+input[type=submit]{
+	border-radius: 5px;
+}
+
 textarea { height: 100px; }
+
+/*---------------- Footer ----------------*/
+
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+   	
+}
+
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 75%;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border-bottom: solid 1px blue;
+    color: #888;
+    transition: 0.2s;
+}
+
+
+
+
+.copyright p {
+	color: grey;
+	font-size: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
 
 
