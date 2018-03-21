@@ -106,7 +106,7 @@ header {
 
 
 #home {
-	height: 800px;
+	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -127,7 +127,7 @@ header {
 
 #about {
 	background-color: blue;
-	height: 800px;
+	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -144,7 +144,7 @@ header {
 
 #shop {
 	background-color: red;
-	height: 800px;
+	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -210,8 +210,30 @@ header {
 
 #contact {
 	background-color: green;
-	height: 800px;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 }
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea { height: 100px; }
 
 
