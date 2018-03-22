@@ -1,5 +1,3 @@
-
-
 /*---------------- Basic Setup ----------------*/
 
 html,
@@ -12,7 +10,6 @@ body {
 	letter-spacing: 3px;
 	margin: 0;
 	padding: 0;
-	
 }
 
 /*---------------- Header ----------------*/
@@ -29,16 +26,13 @@ header {
 
 /*---------------- Main Nav ----------------*/
 
-
 .main-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-
 }
-
 
 .main-nav li {
 	display: inline-block;
@@ -84,11 +78,10 @@ header {
 /*---------------- Vertical Nav ----------------*/
 
 .vertical-nav {
-	
 	opacity: 0;
-
+	margin: 0;
+	padding: 0;
 }
-
 
 @keyframes fadeIn{
 	0% { opacity: 0; }
@@ -107,8 +100,7 @@ header {
 	opacity: 1;
 	animation-name: fadeIn;
 	animation-duration: 1s;
-	animation-fill-mode: forwards;
-	
+	animation-fill-mode: forwards;	
 }
 
 .show li {
@@ -120,51 +112,12 @@ header {
 
 /*---------------- Parent Div/Flexbox ----------------*/
 
-
 .flexbox {
 	display: flex:
 	justify-content: column;
 }
 
-/*---------------- Buy Paper Button ----------------*/
-/*
-.paper-btn:link,
-.paper-btn:visited {
-	display: inline-block;
-	text-decoration: none;
-	color: #EDF2F4;
-	border: 2px solid #EDF2F4;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding: 5px 15px;
-	transition: background-color 0.2s, color 0.2s;
-}
-
-.paper-btn:hover,
-.paper-btn:active {
-    background-color: #8CD867;
-    color: #fff;
-}
-
-
-.buy-paper {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	list-style: none;
-
-}
-
-
-.buy-paper li {
-	display: inline-block;
-	margin: 30px 30px;
-	text-decoration: none;
-}*/
-
-
-/*---------------- Home Page ----------------*/
-
+/*--------------- Home Section ----------------------*/
 
 #home {
 	height: 1000px;
@@ -177,17 +130,13 @@ header {
 	background-attachment: fixed;
 	background-size: cover;	
 	background-position: top;
-
 }
-
 
 #home h1 {
 	margin-left: 30px;
 }
 
 /*---------------- About Section ----------------*/
-
-
 
 #about {
 	background-color: #9BD1F4;
@@ -196,18 +145,15 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
 #about h2 {
 	word-spacing: 20px;
 }
 
-
 #about h3 {
 	word-spacing: 30px;
 }
-
 
 .about-icons {
 	display: flex;
@@ -226,7 +172,6 @@ header {
 
 /*---------------- Shop Section ----------------*/
 
-
 #shop {
 	background-color: #DB2B39;
 	height: 1000px;
@@ -244,15 +189,12 @@ header {
 	margin-bottom: 180px;
 }
 
-
 .price-box {
-	margin: 50px 50px;
+	margin: 50px 30px;
 	text-align: center;
 	background-color: transparent;
 	border: solid 2px #9BD1F4;
 	border-radius: 5px;
-
-
 }
 
 .price > h3,
@@ -269,7 +211,6 @@ header {
 	color: #fff;
 	margin: 15px 0;
 }
-
 
 .buy-btn:link,
 .buy-btn:visited {
@@ -288,7 +229,6 @@ header {
     color: #fff;
 }
 
-
 .paper-img {
 	margin-top: 10px;
 	height: 100px;
@@ -299,7 +239,6 @@ header {
 
 /*---------------- Contact Section ----------------*/
 
-
 #contact {
 	background-color: #F87930;
 	height: 1000px;
@@ -307,20 +246,13 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
-
-
-
 
 .contact-form {
     width: 400px;
     margin: 0 auto;
     margin-bottom: 200px;
 }
-
-
-
 
 input[type=text],
 input[type=email],
@@ -340,16 +272,12 @@ textarea { height: 100px; }
 
 /*---------------- Footer ----------------*/
 
-
 .social-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
-
-   	
 }
-
 
 .social-links li {
     display: inline-block;
@@ -368,7 +296,6 @@ textarea { height: 100px; }
     transition: color 0.2s;
     transition: border-color 0.2s;
 }
-
 
 .facebook-btn:hover,
 .facebook-btn:active {
@@ -391,7 +318,121 @@ textarea { height: 100px; }
 	justify-content: center;
 }
 
+/*--------------- Media Queries -----------------*/
+
+/* Big tablet to 1200px  */
+@media (max-width: 1200px) {
+	body{
+		padding: 0;
+		margin: 0;
+	}
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media (max-width: 1023px) {
+	body{
+		padding: 0;
+		margin: 0;
+	}
+
+	.price-box {
+		margin: 50px 20px;
+		font-size: 90%;
+	}	
+}
+/* Small phones to small tablets: from 481px to 767px */
+@media (max-width: 767px) {
+	body{
+		padding: 0;
+		margin: 0;
+	}
+
+	.main-nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+		align-items: right;
+		list-style: none;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin: 10px 0px;
+		text-decoration: none;
+	}
+
+	.price-box {
+		margin: 50px 10px;
+		font-size: 60%;
+	}
+
+	#about h2 {
+		word-spacing: 5px;
+		font-size: 120%;
+	}
 
 
+	#about h3 {
+		word-spacing: 10px;
+		font-size: 85%;
+	}
+
+	.about-icons li {
+		margin: 20px 20px;
+	}	
+
+	.contact-form {
+	    width: 300px;
+	    margin: 0 auto;
+	    margin-bottom: 200px;
+	}
+}
+
+/* Small phones: from 0 to 480px */
 
 
+@media (max-width: 480px) {
+	body{
+		padding: 0;
+		margin: 0;
+	}
+
+	.products {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+
+	.price-box {
+		margin: 10px 10px;
+		font-size: 40%;
+		height: 200px;
+	}	
+
+	.paper-img {
+		height: 50px;
+		width: 50px;
+	}
+
+	#about h2 {
+		word-spacing: 5px;
+		font-size: 70%;
+	}
+
+	#about h3 {
+		word-spacing: 10px;
+		font-size: 70%;
+	}
+
+	.about-icons li {
+		margin: 20px 10px;
+	}
+
+	.contact-form {
+	    width: 200px;
+	    margin: 0 auto;
+	    margin-bottom: 200px;
+	}
+
+}
