@@ -69,7 +69,10 @@ header {
 }
 
 
-
+@keyframes fadeIn{
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
 
 .show {
 	display: flex;
@@ -81,8 +84,14 @@ header {
 	margin: 0;
 	padding: 0;
 	opacity: 1;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 	
 }
+
+
+
 
 
 
@@ -114,25 +123,7 @@ header {
 	text-decoration: none;
 }
 
-.paper-btn:link,
-.paper-btn:visited {
-	text-decoration: none;
-	color: #EDF2F4;
-	padding-bottom: 5px;
-	border: 2px solid #EDF2F4;
-	border-radius: 5px;
-	padding: 5px 15px;
-	transition: border 0.2s, color 0.2s;
-	transition: background-color 0.2s;
-}
 
-.paper-btn:hover,
-.paper-btn:active {
-    color: #EDF2F4;
-    border: 2px solid #EDF2F4;
-    background-color: #8CD867;
- 
-}
 
 
 /*---------------- Parent Div/Flexbox ----------------*/
@@ -203,6 +194,7 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 180px;
 }
 
 
@@ -279,6 +271,7 @@ header {
 .contact-form {
     width: 400px;
     margin: 0 auto;
+    margin-bottom: 200px;
 }
 
 
@@ -314,7 +307,7 @@ textarea { height: 100px; }
 
 .social-links li {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 50px;
     font-size: 75%;
 }
 
