@@ -95,7 +95,7 @@ header {
 	list-style: none;
 	background-color: transparent;
 	position: fixed;
-	margin: 40px 0;
+	margin: 80px 0;
 	padding: 0;
 	opacity: 1;
 	animation-name: fadeIn;
@@ -136,6 +136,7 @@ header {
 	margin-left: 30px;
 }
 
+
 /*---------------- About Section ----------------*/
 
 #about {
@@ -147,13 +148,21 @@ header {
 	align-items: center;
 }
 
+#about h1 {
+	margin-bottom: 80px;
+}
+
+
 #about h2 {
 	word-spacing: 20px;
 }
 
+
+
 #about h3 {
 	word-spacing: 30px;
 }
+
 
 .about-icons {
 	display: flex;
@@ -167,7 +176,7 @@ header {
 }
 
 .about-icons li {
-	margin: 20px 70px;
+	margin: 80px 70px;
 }
 
 /*---------------- Shop Section ----------------*/
@@ -252,6 +261,7 @@ header {
     width: 400px;
     margin: 0 auto;
     margin-bottom: 200px;
+    margin-top: 80px;
 }
 
 input[type=text],
@@ -363,7 +373,7 @@ textarea { height: 100px; }
 
 	.main-nav li {
 		display: inline-block;
-		margin: 10px 0px;
+		margin: 15px 0px;
 		text-decoration: none;
 	}
 
