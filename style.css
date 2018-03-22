@@ -195,7 +195,7 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 180px;
+	margin-bottom: 140px;
 }
 
 .price-box {
@@ -260,8 +260,8 @@ header {
 .contact-form {
     width: 400px;
     margin: 0 auto;
-    margin-bottom: 200px;
-    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-top: 40px;
 }
 
 input[type=text],
