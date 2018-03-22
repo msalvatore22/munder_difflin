@@ -1,3 +1,5 @@
+
+
 /*---------------- Basic Setup ----------------*/
 
 html,
@@ -54,10 +56,28 @@ header {
 	transition: border 0.2s, color 0.2s;
 }
 
-.nav-btn:hover,
-.nav-btn:active {
+#home-nav:hover,
+#home-nav:active {
+    color: #F0CCE7;
+    border: 2px solid #F0CCE7; 
+}
+
+#about-nav:hover,
+#about-nav:active {
     color: #9BD1F4;
     border: 2px solid #9BD1F4; 
+}
+
+#shop-nav:hover,
+#shop-nav:active {
+    color: #8CD867;
+    border: 2px solid #8CD867; 
+}
+
+#contact-nav:hover,
+#contact-nav:active {
+    color: #F87930;
+    border: 2px solid #F87930; 
 }
 
 /*---------------- Vertical Nav ----------------*/
@@ -106,7 +126,7 @@ header {
 }
 
 /*---------------- Buy Paper Button ----------------*/
-
+/*
 .paper-btn:link,
 .paper-btn:visited {
 	display: inline-block;
@@ -139,7 +159,7 @@ header {
 	display: inline-block;
 	margin: 30px 30px;
 	text-decoration: none;
-}
+}*/
 
 
 /*---------------- Home Page ----------------*/
@@ -269,6 +289,7 @@ header {
 	margin-top: 10px;
 	height: 100px;
 	width: 100px;
+	border-radius: 5px;
 }
 
 
@@ -286,9 +307,6 @@ header {
 }
 
 
-#contact > div {
-	margin: 20px 0;
-}
 
 
 .contact-form {
@@ -296,6 +314,7 @@ header {
     margin: 0 auto;
     margin-bottom: 200px;
 }
+
 
 
 
