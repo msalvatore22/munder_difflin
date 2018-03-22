@@ -81,7 +81,7 @@ header {
 	list-style: none;
 	background-color: transparent;
 	position: fixed;
-	margin: 0;
+	margin: 40px 0;
 	padding: 0;
 	opacity: 1;
 	animation-name: fadeIn;
@@ -90,23 +90,41 @@ header {
 	
 }
 
-
-
-
-
-
 .show li {
 	display: block;
-	margin: 60px 0;
+	margin: 30px 0;
 	padding: 0;
 	text-decoration: none;
 }
 
+/*---------------- Parent Div/Flexbox ----------------*/
 
 
-
+.flexbox {
+	display: flex:
+	justify-content: column;
+}
 
 /*---------------- Buy Paper Button ----------------*/
+
+.paper-btn:link,
+.paper-btn:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: #EDF2F4;
+	border: 2px solid #EDF2F4;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding: 5px 15px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.paper-btn:hover,
+.paper-btn:active {
+    background-color: #8CD867;
+    color: #fff;
+}
+
 
 .buy-paper {
 	display: flex;
@@ -121,17 +139,6 @@ header {
 	display: inline-block;
 	margin: 30px 30px;
 	text-decoration: none;
-}
-
-
-
-
-/*---------------- Parent Div/Flexbox ----------------*/
-
-
-.flexbox {
-	display: flex:
-	justify-content: column;
 }
 
 
@@ -345,6 +352,10 @@ textarea { height: 100px; }
 	justify-content: center;
 }
 
+.copywright p a:link,
+.copywright p a:active {
+	text-decoration: none;
+}
 
 
 
