@@ -9,5 +9,7 @@ window.addEventListener("scroll", (event) => {
 
 	}
 
-} );
+});
+
+
 
