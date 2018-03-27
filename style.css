@@ -134,6 +134,7 @@ header {
 
 #home h1 {
 	margin-left: 30px;
+	font-size: 200%;
 }
 
 
@@ -148,19 +149,22 @@ header {
 	align-items: center;
 }
 
-#about h1 {
-	margin-bottom: 80px;
-}
 
 
 #about h2 {
 	word-spacing: 20px;
+	margin-bottom: 60px;
+	font-size: 180%;
 }
-
-
 
 #about h3 {
 	word-spacing: 30px;
+	font-size: 140%;
+}
+
+#about h4 {
+	word-spacing: 30px;
+	font-size: 100%;
 }
 
 
@@ -188,6 +192,10 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#shop h2 {
+	font-size: 200%;
 }
 
 .products {
@@ -255,6 +263,10 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#contact h2 {
+	font-size: 200%;
 }
 
 .contact-form {
@@ -432,12 +444,12 @@ textarea { height: 100px; }
 		width: 50px;
 	}
 
-	#about h2 {
+	#about h3 {
 		word-spacing: 5px;
 		font-size: 70%;
 	}
 
-	#about h3 {
+	#about h4 {
 		word-spacing: 10px;
 		font-size: 70%;
 	}
